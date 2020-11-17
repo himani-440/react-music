@@ -4,36 +4,36 @@ html,
   height: 100%;
 }
 html{
- font-size: 10%; 
+ font-size: 50%; 
 }
 h1{
   padding: 0.77rem 0;
-  background-color: #b16d22;
+  background-color: #912869;
   text-align: center;
   font-family: "montserrat", sans-serif;
-  font-size: 1.88rem;
-  color: #fff;
+  font-size: 2.88rem;
+  color: rgb(12, 12, 12);
 }
 h1 .highlight{
   color: rgb(46, 113, 238);
 }
 a{
   text-decoration: none;
-  color: #fff;
+  color:rgb(10, 6, 6);
 }
 h2{
   font-family: "montserrat", sans-serif;
-  font-size: 1.55rem;
+  font-size: 1.85rem;
 }
 .App{
   height: 100%;
-  padding: 0 17% 10% 17%;
-  background-image: url("./img1.jpg");
+  padding: 0 17% 12% 17%;
+  background-image: url("./img3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-weight: 500;
-  color: #fff;
+  color: rgb(10, 6, 6);
 }
 
 .App-playlist {

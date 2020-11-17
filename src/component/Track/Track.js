@@ -9,21 +9,23 @@ class Track extends React.Component {
             term: ""
         };
     }
+
     addTrack = (event) => {
         this.props.onAdd(this.props.track);
     }
     renderAction = () => {
         if (this.props.isRemove) {
             return (
-                <buttom className="Track-action" onClick={this.removeTrack}>
+                <button className="Track-action" onClick={this.removeTrack}>
                     -
-                </buttom>
+                </button>
             );
         }
         return (
-            <buttom className="Track-action" onClick={this.addTrack}>
+            <button className="Track-action" onClick={this.addTrack}>
+
                 +
-            </buttom>
+            </button>
         );
     }
     render() {
@@ -38,12 +40,11 @@ class Track extends React.Component {
                         src={"https://open.spotify.com/embed/track/" + this.props.track.id}
                         width="300"
                         height="80"
-                        frameborder="0"
+                        frameBorder="0"
                         alltransparancy="true"
                         allow="encypted-media"
                         title="preview"
                     />
-
                 </div>
                 {this.renderAction()}
             </div>
