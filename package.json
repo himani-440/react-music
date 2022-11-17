@@ -9,6 +9,7 @@
     "react-scripts": "0.9.5",
     "universal-cookie": "^4.0.4"
   },
+  
   "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
@@ -16,5 +17,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  
   "proxy": "https://api.spotify.com/"
 }
